@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.contact {
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
+  color: black;
+  position: initial;
+  padding-top: 15%;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 10px;
+  position: initial;
+  align-items: initial;
+
+}
+.container h2{
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: black;
+  text-align: initial;
+
+}
+.contact-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:30px;
+  position: initial;
+  align-items: left;
+}
+.contact-form{
+  text-align: left;
+  position: relative;
+  align-items:initial ;
+}
+.form{
+  align-items: initial;
+  position: relative;
+}
+.form1{
+  margin-bottom: 20px;
+  
+  
+  
+}
+.contact-form h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+  position: initial;
+
+}
+/* input,textarea{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: gray;
+  color: white;
+  position: initial;
+  align-items: initial;
+  
+} */
+input:focus,textarea:focus{
+  outline: none;
+  box-shadow: 0 0 8px black;
+  align-items: initial;
+}
+button{
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: gray;
+  color: white;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+  padding-left: 20px;
+  
+}
+button:hover{
+  box-shadow:5px 5px 5px black;
+}
+.contact-info{
+  text-align: left;
+  position: initial;
+}
+.contact-info h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+  position: initial;
+}
+.contact-info p{
+  margin-bottom: 10px;
+  color:black;
+  font-size: medium;
+  position: initial;
+}
+.contact-info i{
+  color: black;
+  margin-right: 10px;
+  position: initial;
+}
